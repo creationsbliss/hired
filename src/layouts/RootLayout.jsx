@@ -1,10 +1,14 @@
 import { Outlet } from "react-router";
 
+import Header from "@/components/header/Header";
+
 const RootLayout = () => {
   return (
-    <div>
-      <h1>Welcome to the Root Layout</h1>
-      <Outlet />
+    <div className="container mx-auto">
+      <Header />
+      <main className="min-h-screen">
+        <Outlet />
+      </main>
     </div>
   );
 };
