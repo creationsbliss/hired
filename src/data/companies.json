@@ -1,0 +1,10 @@
+[
+  { "name": "Amazon", "path": "/companies/amazon.svg" },
+  { "name": "Atlassian", "path": "/companies/atlassian.svg" },
+  { "name": "Google", "path": "/companies/google.webp" },
+  { "name": "IBM", "path": "/companies/ibm.svg" },
+  { "name": "Meta", "path": "/companies/meta.svg" },
+  { "name": "Microsoft", "path": "/companies/microsoft.webp" },
+  { "name": "Netflix", "path": "/companies/netflix.png" },
+  { "name": "Uber", "path": "/companies/uber.svg" }
+]

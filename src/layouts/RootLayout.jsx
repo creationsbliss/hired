@@ -4,7 +4,7 @@ import Header from "@/components/header/Header";
 
 const RootLayout = () => {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto p-4">
       <Header />
       <main className="min-h-screen">
         <Outlet />

@@ -2,13 +2,6 @@ import React from "react";
 import { Link } from "react-router";
 import { Button } from "../ui/button";
 
-import {
-  SignedIn,
-  SignedOut,
-  SignInButton,
-  UserButton,
-} from "@clerk/clerk-react";
-
 const Header = () => {
   return (
     <nav className="py-4 flex items-center justify-between">
@@ -19,13 +12,6 @@ const Header = () => {
       </div>
       <div>
         <Button>Login</Button>
-
-        <SignedOut>
-          <SignInButton />
-        </SignedOut>
-        <SignedIn>
-          <UserButton>hello</UserButton>
-        </SignedIn>
       </div>
     </nav>
   );
